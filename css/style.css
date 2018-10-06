@@ -1,0 +1,40 @@
+
+.box {
+    position: absolute;
+}
+.box-1 {
+    top: 0%;
+    left: 0%;
+    height: 500px;
+    width: 30%;
+    background-color:black;
+    z-index: 1;
+  }
+.box-2 {
+    z-index: 4;
+    top:0%;
+    left: 0%;
+    padding: 50px 35px;
+    background-color: gray;
+    text-align: center;
+}
+
+.box-3 {
+    z-index: 2;
+    left: 50px;
+    background-color: red;
+    top: 0%;
+    left: 30%;
+    text-align: center;
+    height: 500px;
+}
+
+.box-4 {
+    z-index: 3;
+    left: 30%;
+    top: 22%;
+    background-color:pink;
+    text-align: center;
+    height: 150px;
+    width: 340px;
+}
